@@ -26,6 +26,7 @@ body {
   margin-left: 15px;
   max-width: 400px;
   font-weight: normal;
+  color: #000;
 }
 .nav-pills>li>a {
 
@@ -57,7 +58,6 @@ h1,h2,h3,h4,h5 {
   font-weight: lighter;
 }
 h1 {
-  color: #79877A;
   font-size: 4em;
   font-weight: 300;
 }
