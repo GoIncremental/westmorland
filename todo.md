@@ -8,6 +8,7 @@ TODO
 - [ ] Add about area
 - [ ] Footer
 - [ ] Maps and Find
+- [ ] Shrink and optimize images 
 
 DONE
 
