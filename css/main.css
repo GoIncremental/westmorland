@@ -18,9 +18,9 @@ h1,h2,h3,h4,h5 {
   font-weight: lighter;
 }
 
-h1 {
+.navbar-brand {
   font-family: 'Montserrat', sans-serif !important;
-  font-size: 4em;
+  font-size: 1.2em;
   color: white;
 }
 
@@ -30,12 +30,22 @@ h1 {
 
 /* nav */
 
-.nav {
-  background: white;
+.navbar-right {
+  margin-right: 40px;
+}
+
+.navbar-inverse {
+  margin-top: 10px;
+  border-radius: 10px;
+}
+/*.nav {*/
+  /*background: white;
   margin-top: -10px;
   height: 41px;
   float: right;
 }
+
+
 
 .nav-pills>li>a {
   opacity: 0.6;
@@ -55,7 +65,7 @@ h1 {
   font-weight: bold;
   color: #212121;
   opacity: 1 !important;
-}
+}*/
 
 /*carousel*/
 
