@@ -164,11 +164,11 @@ button.btn.btn-default.rightbtn:hover {
   list-style: none;
   margin: 0 auto;
   color: white;
+  padding: 15;
 }
 
-.ul-address li {
-  margin: 0 auto;
-}
+
+
 /* FOOTER */
 
 footer {
@@ -186,13 +186,24 @@ footer {
 
 @media (max-width:768px){
 
-  .nav {
-    margin-top: -30px;
-    float: left;
+  p {
+    text-align: justify;
+  }
+
+  .nav li {
     text-align: center;
   }
 
   .j1 {
-    margin-top: -180px;
+    margin-top: -280px;
+  }
+  .map-attractions{
+    height: 800px;
+  }
+  .maparea {
+    border: none;
+  }
+  .ul-address {
+    padding: 0;
   }
 }
