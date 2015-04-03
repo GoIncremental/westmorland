@@ -64,13 +64,13 @@ h1 {
 
 
 .carousel {
-  max-height: 650px;
+  max-height: 500px;
   z-index:0;
   margin-top: -400px;
 }
 .j1 {
 
-  background:   #CAD5AB;
+  background:   #fff;
   color: #212121;
   text-align: justify;
   margin-top: 50px;
@@ -87,9 +87,29 @@ h1 {
   margin-top: 15px;
 }
 
+.alter-info {
+  max-width: 900px;
+  margin: 0 auto;
+}
 
+.info-row {
+  margin-top: 45px;
+}
+
+.info-row p {
+  font-size: 1.3em;
+  font-weight: lighter;
+  padding: 25px;
+}
+.info-row3 {
+  margin-top: 135px;
+}
+
+.info-row-top {
+  padding-top: 40px;
+}
 .item{
-  max-height:650px;
+  max-height:500px;
 }
 
 footer {
