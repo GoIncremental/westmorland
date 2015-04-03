@@ -10,6 +10,8 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="css/pricelist.css" rel="stylesheet">
+
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -22,15 +24,20 @@
 <body>
   <header>
     <section class="container hd">
-
-      <h1>  Westmorland<span class="soft">  Cottage</span> </h1>
-      <br>
-      <br>
-      <ul class="nav nav-pills">
-        <li role="presentation" class="active"><a href="#">Home</a></li>
-        <li role="presentation"><a href="#prices">Prices</a></li>
-        <li role="presentation"><a href="#about">About</a></li>
-      </ul>
+      <div class="row">
+        <div class="col-sm-8">
+          <h1>  Westmorland<span class="soft">  Cottage</span> </h1>
+        </div>
+        <br>
+        <br>
+        <div class="col-sm-4">
+          <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#prices">Prices</a></li>
+            <li role="presentation"><a href="#about">About</a></li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel">
@@ -96,15 +103,15 @@
     </br>
     <br>
     Caroline & Tim are charming hosts for whom nothing is too much trouble. Tea & Cake on arrival in the comfortable beamed lounge or in the attractive gardens.
-  </br>
-</br>
-<a  class="btn btn-default rightbtn" href="#about">Discover More</a>
+    <br>
+    <br>
+    <a  class="btn btn-default rightbtn" href="#about">Discover More</a>
 
-</p>
+  </p>
 
-<div class="col-md-6 col-xs-12">
-  <img src="img/picture1.png" class="img-responsive img-head" alt="Responsive image">
-</div>
+  <div class="col-md-6 col-xs-12">
+    <img src="img/picture1.png" class="img-responsive img-head" alt="Responsive image">
+  </div>
 </section>
 <div class="wrap">
   <section class="jumbotron" id="prices">
@@ -193,75 +200,82 @@
 
         </div>
 
+        <div class="row">
+          <div class="col-md-3 center-block">
 
-        <div class="col-md-3 center-block">
-
-        </div>
-        <div class="col-md-6 center-block">
-          <div class="container ">
-            <h2>What We Offer</h2>
-            <p>Tea & Cake on arrival <br>
-              Aga cooked breakfast as well as tucking into home made granola compote and croissants.</br>
-              Free WiFi
-              <br>
-              Closed Rarely, No Smoking, Sorry no pets or children.
-              <br>
-              Cheques, BACS Transfer or Cash only.
-              <br>
-              Telephone: 01283 813336
-            </p>
           </div>
-        </div>
-
+          <div class="col-md-6 center-block">
+            <div class="container ">
+              <h2>What We Offer</h2>
+              <p>Tea & Cake on arrival <br>
+                Aga cooked breakfast as well as tucking into home made granola compote and croissants.</br>
+                Free WiFi
+              </br>
+              Closed Rarely, No Smoking, Sorry no pets or children.
+            </br>
+            Cheques, BACS Transfer or Cash only.
+          </br>
+          Telephone: 01283 813336
+        </p>
       </div>
-
     </div>
+  </div>
+</div>
 
-  </section>
+</div>
+
+</section>
 </div>
 
 
-<section class="alter-info" id="about">
-  <div class="info-row info-row-top">
+<section class="jumbotron about" id="about">
 
+  <div class="container">
     <div class="col-md-8 col-xs-12">
       <p>Delightful bedrooms, with crisp white cotton sheets and soft fluffy towels ensure you are fully pampered.
         TV free wifi and tea making facilities in every room.
         Wake up for an Aga cooked breakfast as well as tucking into home made granola compote and croissants.</p>
-      </div>
-      <div class="col-md-4 hidden-xs">
-        <img src="img/picture2.png" class="img-responsive" alt="Responsive image">
-      </div>
-
-    </div>
-    <div class=" info-row">
-
-      <div class="col-md-4 hidden-xs">
-        <img src="img/picture3.png" class="img-responsive" alt="Responsive image">
-      </div>
-      <div class="col-md-8 col-xs-12">
         <p>Rolleston On Dove is at the southern tip of the peak district providing easy access to all that has to offer.
           Visit the national arboretum which is close by as well as the brewing museum in Burton On Trent.</p>
         </div>
-
+        <div class="col-md-4 hidden-xs">
+          <img src="img/picture2.png" class="img-responsive" alt="Responsive image">
+        </div>
       </div>
+    </section>
+    <section class="map-attractions jumbotron">
+
+      <div class="col-md-4 maparea">
+        <ul class="ul-address">
+          <iframe width="300" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Tutbury%20Castle%2C%20Castle%20Street%2C%20Burton%20upon%20Trent%2C%20United%20Kingdom&key=AIzaSyDNXgxUGRA10v4UH16qYmtJxIn3iE2CVrg"></iframe>
+          <li>Address Line 1</li>
+          <li>Address Line 2</li>
+          <li>City</li>
+          <li>PostCode</li>
+
+          <ul>
+          </div>
+          <div class="col-md-8">
+            <p>Tutbury castle, Repton School, Calke Abbey, Sudbury Hall and Chatsworth are all within easy reach.
+
+              The village has excellent pubs and restaurants a short walk away. <br> <br> Newton House b&b, located in the village of Newton Solney, Derbyshire near to repton, offers stylish b&b accommodation with luxurious bedrooms and en-suite bathrooms.
+            </p>
+          </div>
+
+        </section>
+        <footer>
+
+        </footer>
 
 
 
-      </section>
-      <footer>
-
-      </footer>
 
 
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
 
-
-
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/main.js"></script>
-
-    </body>
-    </html>
+      </body>
+      </html>
