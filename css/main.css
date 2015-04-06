@@ -35,8 +35,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .navbar-inverse {
-  margin-top: 10px;
-  border-radius: 10px;
+  
 }
 /*.nav {*/
   /*background: white;
@@ -70,13 +69,12 @@ h1,h2,h3,h4,h5 {
 /*carousel*/
 
 .carousel {
-  max-height: 500px;
+  max-height: 600px;
   z-index:0;
   margin-top: -400px;
 }
 
 .item{
-  max-height:500px;
 }
 
 .hd {
@@ -126,6 +124,10 @@ button.btn.btn-default.rightbtn:hover {
   background: #efefef;
 }
 
+.panel-body {
+  padding: 0 !important;
+}
+
 .center-block{
   text-align: center;
 }
@@ -134,6 +136,13 @@ button.btn.btn-default.rightbtn:hover {
 
 .about {
   background: #fff;
+  margin-top: 425px;
+}
+
+.small-gap {
+  display:block;
+  width: 100%;
+
 }
 
 .info-row p {
