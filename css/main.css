@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .navbar-inverse {
-  
+
 }
 /*.nav {*/
   /*background: white;
@@ -70,8 +70,14 @@ h1,h2,h3,h4,h5 {
 
 .carousel {
   max-height: 600px;
+  max-width: 1200px;
   z-index:0;
-  margin-top: -400px;
+  margin-left:  auto;
+  margin-right: auto;
+
+  margin-top: -30px;
+
+
 }
 
 .item{
@@ -79,7 +85,6 @@ h1,h2,h3,h4,h5 {
 
 .hd {
   position: relative;
-  height: 380px;
   z-index: 20;
 }
 
@@ -196,7 +201,7 @@ footer {
 @media (max-width:768px){
 
   p {
-    text-align: justify;
+    text-align: center;
   }
 
   .nav li {
@@ -204,7 +209,6 @@ footer {
   }
 
   .j1 {
-    margin-top: -280px;
   }
   .map-attractions{
     height: 800px;
