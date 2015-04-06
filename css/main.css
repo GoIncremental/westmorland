@@ -4,10 +4,10 @@
 
 /* Typography */
 
-body {
+/*body {
   font-family: 'Roboto', sans-serif;
 }
-
+*/
 ::selection {
   background: #949D68;
   color: white;
@@ -15,7 +15,6 @@ body {
 }
 h1,h2,h3,h4,h5 {
   font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
 }
 
 .navbar-brand {
@@ -25,8 +24,7 @@ h1,h2,h3,h4,h5 {
 }
 
 
-
-/*  HEADER */
+/*  HEADER 
 
 /* nav */
 
@@ -34,8 +32,14 @@ h1,h2,h3,h4,h5 {
   margin-right: 40px;
 }
 
-.navbar-inverse {
+.navbar-brand, .navbar-inverse .navbar-nav>li>a {
 
+  color: white !important;
+  opacity: 0.9;
+}
+
+.navbar-brand:hover, .navbar-inverse .navbar-nav>li>a:hover {
+  opacity: 1;
 }
 /*.nav {*/
   /*background: white;
@@ -43,6 +47,8 @@ h1,h2,h3,h4,h5 {
   height: 41px;
   float: right;
 }
+
+
 
 
 
@@ -64,159 +70,163 @@ h1,h2,h3,h4,h5 {
   font-weight: bold;
   color: #212121;
   opacity: 1 !important;
-}*/
+  }*/
 
-/*carousel*/
+  /*carousel*/
 
-.carousel {
-  max-height: 600px;
-  max-width: 1200px;
-  z-index:0;
-  margin-left:  auto;
-  margin-right: auto;
+  .carousel {
+    max-height: 600px;
+    max-width: 1200px;
+    z-index:0;
+    margin-left:  auto;
+    margin-right: auto;
 
-  margin-top: -30px;
+    margin-top: -30px;
 
 
-}
+  }
 
-.item{
-}
+  .item{
+  }
 
-.hd {
-  position: relative;
-  z-index: 20;
-}
+  .hd {
+    position: relative;
+    z-index: 20;
+  }
 
 /*.soft {
   color: #CAD5AB;
-}*/
+  }*/
 
-/* FIRST SECTION */
-
-.j1 {
-
-  background:   #fff;
-  color: #212121;
-  text-align: justify;
-}
-
-.headtitle{
-  margin-left: 15px;
-  max-width: 400px;
-  font-weight: normal;
-  color: #000;
-}
-
-.jumbotron p {
-  margin-top: 15px;
-}
-
-.rightbtn {
-  float: right;
-  width: 190px;
-}
-
-
-button.btn.btn-default.rightbtn:hover {
-  background: #8BC34A;
-  color: white;
-}
-
-/* SECOND SECTION */
-
-.wrap {
-  background: #efefef;
-}
-
-.panel-body {
-  padding: 0 !important;
-}
-
-.center-block{
-  text-align: center;
-}
-
-/* THIRD SECTION */
-
-.about {
-  background: #fff;
-  margin-top: 425px;
-}
-
-.small-gap {
-  display:block;
-  width: 100%;
-
-}
-
-.info-row p {
-  font-size: 1.3em;
-  font-weight: lighter;
-  padding: 25px;
-}
-
-/* FOURTH */
-
-.map-attractions {
-  background: #90C695;
-  border-top: 1px solid #CAD5AB;
-  height: 450px;
-}
-
-.map-attractions p {
-
-  margin-top: 50px;
-  color: #fff;
-}
-
-.maparea {
-  border-right: 1px solid #d2d2d2;
-}
-
-.ul-address {
-  list-style: none;
-  margin: 0 auto;
-  color: white;
-  padding: 15;
-}
-
-
-
-/* FOOTER */
-
-footer {
-  background: #6D6D6D;
-  height: 200px;
-  margin-top: -30px;
-}
-
-
-
-
-
-
-
-
-@media (max-width:768px){
-
-  p {
-    text-align: center;
-  }
-
-  .nav li {
-    text-align: center;
-  }
+  /* FIRST SECTION */
 
   .j1 {
+
+    background:   #fff;
+    color: #212121;
+    text-align: justify;
   }
-  .map-attractions{
-    height: 800px;
+
+  .headtitle{
+    margin-left: 15px;
+    max-width: 400px;
+    font-weight: normal;
+    color: #000;
   }
+
+  .jumbotron p {
+    margin-top: 15px;
+  }
+
+  .rightbtn {
+    float: right;
+    width: 190px;
+  }
+
+
+  button.btn.btn-default.rightbtn:hover {
+    background: #8BC34A;
+    color: white;
+  }
+
+  /* SECOND SECTION */
+
+  .wrap {
+    background: #efefef;
+  }
+
+  .panel-body {
+    padding: 0 !important;
+  }
+
+  .center-block{
+    text-align: center;
+  }
+
+  /* THIRD SECTION */
+
+  .about {
+    background: #fff;
+    margin-top: 455px;
+  }
+
+  .small-gap {
+    display:block;
+    width: 100%;
+
+  }
+
+  .info-row p {
+    font-size: 1.3em;
+    padding: 25px;
+  }
+
+  /* FOURTH */
+
+  .map-attractions {
+    background: #90C695;
+    border-top: 1px solid #CAD5AB;
+    height: 450px;
+    margin-top: -30px;
+
+  }
+
+  .map-attractions p {
+
+    margin-top: 50px;
+    color: #fff;
+  }
+
   .maparea {
-    border: none;
+    border-right: 1px solid #d2d2d2;
   }
+
+  .map {
+    margin-top: 300px;
+  }
+
   .ul-address {
-    padding: 0;
+    list-style: none;
+    margin-right: 28px;
+    
+    text-align: right;
   }
-}
+
+
+
+  /* FOOTER */
+
+  footer {
+    background: #6D6D6D;
+    height: 200px;
+    margin-top: -30px;
+  }
+
+
+
+
+
+
+
+
+  @media (max-width:768px){
+
+    p {
+    }
+
+    .nav li {
+      text-align: center;
+    }
+
+    .j1 {
+    }
+    .map-attractions{
+      height: 800px;
+    }
+    .maparea {
+      border: none;
+    }
+    .ul-address {
+      padding: 0;
+    }
+  }
