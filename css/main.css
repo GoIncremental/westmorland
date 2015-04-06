@@ -1,5 +1,4 @@
 @import url("http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Roboto:400,300,700italic,700,500&subset=latin,latin-ext");
 
 
 /* Typography */
@@ -152,7 +151,7 @@ h1,h2,h3,h4,h5 {
   }
 
   .map {
-    margin-top: 250px;
+    margin-top: 300px;
   }
 
   .ul-address {
