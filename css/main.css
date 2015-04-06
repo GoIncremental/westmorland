@@ -88,6 +88,10 @@ h1,h2,h3,h4,h5 {
     margin-top: -80px;
   }
 
+  .con-img {
+    margin-top: 40px;
+  }
+
 
   button.btn.btn-default.rightbtn:hover {
     background: #8BC34A;
@@ -112,6 +116,7 @@ h1,h2,h3,h4,h5 {
 
   .about {
     background: #fff;
+    margin-top: 50px;
 /*    margin-top: 405px;
 */  }
 
@@ -147,7 +152,7 @@ h1,h2,h3,h4,h5 {
   }
 
   .map {
-    margin-top: 350px;
+    margin-top: 250px;
   }
 
   .ul-address {
