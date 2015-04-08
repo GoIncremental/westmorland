@@ -3,7 +3,9 @@
 
 /* Typography */
 
-
+.fa {
+  color: white;
+}
 */
 ::selection {
   background: #949D68;
@@ -88,7 +90,7 @@ h1,h2,h3,h4,h5 {
   }
 
   .con-img {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
 .abt {
